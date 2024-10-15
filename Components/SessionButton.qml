@@ -67,7 +67,7 @@ Item {
 
         contentItem: Text {
             id: displayedItem
-            text: (config.TranslateSessionSelection || "Session") + " (" + selectSession.currentText + ")"
+            text: (config.TranslateSessionSelection || "Session: ") + selectSession.currentText
             color: root.palette.text
             verticalAlignment: Text.AlignVCenter
             font.pointSize: root.font.pointSize * 0.8
